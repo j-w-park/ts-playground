@@ -1,4 +1,10 @@
 {
   "name": "generator-test",
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "asdf": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
 }
