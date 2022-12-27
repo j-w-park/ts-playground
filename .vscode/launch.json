@@ -10,7 +10,7 @@
       "name": "Launch",
       "preLaunchTask": "npm: build",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/index.ts",
+      "program": "${workspaceFolder}/src/index.ts",
       "outFiles": ["${workspaceFolder}/dist/index.js"]
     }
   ]
