@@ -17,6 +17,9 @@ function* generator3() {
 }
 
 const gen = generator3();
+
+console.log("asdf");
+console.log("asdf");
 console.log(gen.next(10));
 console.log(gen.next());
 console.log(gen.return());
