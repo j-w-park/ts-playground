@@ -2,7 +2,7 @@
   "name": "generator-test",
   "packageManager": "yarn@3.3.1",
   "scripts": {
-    "build": "tsc --project ."
+    "build": "rm -rf dist && tsc --project ."
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
