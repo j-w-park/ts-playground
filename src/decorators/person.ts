@@ -3,7 +3,7 @@ function loggedMethod<This, Args extends any[], Return>(
   context: ClassMethodDecoratorContext<
     This,
     (this: This, ...args: Args) => Return
-  >
+  >,
 ) {
   const methodName = String(context.name);
   return function replacementMethod(this: This, ...args: Args): Return {
