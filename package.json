@@ -5,7 +5,11 @@
     "format": "prettier --write src"
   },
   "devDependencies": {
+    "@types/lodash-es": "^4",
     "prettier": "^2.8.7",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
   }
 }
