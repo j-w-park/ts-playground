@@ -5,23 +5,29 @@ interface Data {
   name: string;
 }
 
-const data = undefined as Data[] | undefined;
-// [
-//   { id: 1, name: 'John' },
-//   { id: 2, name: 'Jane' },
-//   { id: 3, name: 'Jack' },
-//   { id: 4, name: 'Jill' },
-//   { id: 5, name: 'Jenny' },
-//   { id: 6, name: 'Jen' },
-//   { id: 7, name: 'Jenifer' },
-// ];
-
-const main = () => {
-  // const last = _.chain(data).sortBy('name').last().value();
-  // if (last === undefined) {
-  //   throw new Error('last is undefined');
-  // }
+export default function main() {
+  const data = [
+    { id: 1, name: 'John' },
+    { id: 2, name: 'Jane' },
+    { id: 3, name: 'Jack' },
+    { id: 4, name: 'Jill' },
+    { id: 5, name: 'Jenny' },
+    { id: 6, name: 'Jen' },
+    { id: 7, name: 'Jenifer' },
+  ];
+  const last = _.chain(data).sortBy('name').last().value();
+  if (last === undefined) {
+    throw new Error('last is undefined');
+  }
   // console.log(_.chain(data).sortBy('name').last().value());
-};
-
-export default main;
+  // const data = [
+  //   { id: 1, name: 'John' },
+  //   { id: 1, name: 'Jane' },
+  //   { id: 1, name: 'Jack' },
+  //   { id: 2, name: 'Jill' },
+  //   { id: 2, name: 'Jenny' },
+  //   { id: 7, name: 'Jen' },
+  //   { id: 7, name: 'Jenifer' },
+  // ];
+  // console.log(_.chain(data).uniqBy('id').map('name').value());
+}
