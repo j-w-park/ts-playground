@@ -15,6 +15,7 @@
     "crypto-js": "^4.1.1",
     "date-fns": "^2.29.3",
     "jszip": "^3.10.1",
-    "lodash-es": "^4.17.21"
+    "lodash-es": "^4.17.21",
+    "natural": "^6.5.0"
   }
 }

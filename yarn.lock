@@ -35,6 +35,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"afinn-165-financialmarketnews@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "afinn-165-financialmarketnews@npm:3.0.0"
+  checksum: 1b6d1aa69fa868cbcd0f25275e3a6b808d6ab21e2f7104fac997baaf81683497a78cd341f4a7dcd9115394cb9c0f82dff9bb8accc9d52f46252f558670453d2f
+  languageName: node
+  linkType: hard
+
+"afinn-165@npm:^1.0.2":
+  version: 1.0.4
+  resolution: "afinn-165@npm:1.0.4"
+  checksum: f2843dfd6e8c77f0e1849afcfcb60092db49653f669369c3263b8202ebe0cc38c37bc490acb41b49b96968e8b8628bd788bc5f456c8ece270d82d9b304fceda1
+  languageName: node
+  linkType: hard
+
+"apparatus@npm:^0.0.10":
+  version: 0.0.10
+  resolution: "apparatus@npm:0.0.10"
+  dependencies:
+    sylvester: ">= 0.0.8"
+  checksum: ab0bf678890a4840dff47b5133f9c04beec618627ec7783ad8a7f379ecfed84676049b6e6aac567ecb660d5f27db06e420e5637ceed2325542b2f2e5ffe9dc90
+  languageName: node
+  linkType: hard
+
 "core-util-is@npm:~1.0.0":
   version: 1.0.3
   resolution: "core-util-is@npm:1.0.3"
@@ -105,6 +128,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"natural@npm:^6.5.0":
+  version: 6.5.0
+  resolution: "natural@npm:6.5.0"
+  dependencies:
+    afinn-165: ^1.0.2
+    afinn-165-financialmarketnews: ^3.0.0
+    apparatus: ^0.0.10
+    safe-stable-stringify: ^2.2.0
+    stopwords-iso: ^1.1.0
+    sylvester: ^0.0.12
+    underscore: ^1.9.1
+    wordnet-db: ^3.1.11
+  checksum: 94ec2e825e8a88df93805c8c3b67441713bccc5d803bda544e1bda1f43506e9d2803034abfe2b0f0bb2e494f2cb06b571e2f400840404bfbc608189eb3ed4f76
+  languageName: node
+  linkType: hard
+
 "pako@npm:~1.0.2":
   version: 1.0.11
   resolution: "pako@npm:1.0.11"
@@ -154,6 +193,7 @@ __metadata:
     date-fns: ^2.29.3
     jszip: ^3.10.1
     lodash-es: ^4.17.21
+    natural: ^6.5.0
     prettier: ^2.8.7
     typescript: ^5.0.2
   languageName: unknown
@@ -166,10 +206,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"safe-stable-stringify@npm:^2.2.0":
+  version: 2.4.3
+  resolution: "safe-stable-stringify@npm:2.4.3"
+  checksum: 3aeb64449706ee1f5ad2459fc99648b131d48e7a1fbb608d7c628020177512dc9d94108a5cb61bbc953985d313d0afea6566d243237743e02870490afef04b43
+  languageName: node
+  linkType: hard
+
 "setimmediate@npm:^1.0.5":
   version: 1.0.5
   resolution: "setimmediate@npm:1.0.5"
   checksum: c9a6f2c5b51a2dabdc0247db9c46460152ffc62ee139f3157440bd48e7c59425093f42719ac1d7931f054f153e2d26cf37dfeb8da17a794a58198a2705e527fd
+  languageName: node
+  linkType: hard
+
+"stopwords-iso@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "stopwords-iso@npm:1.1.0"
+  checksum: 6825e6041dbb6f318bb5391ff9ee1330b68a1b26d29164ea2d2f11a08b41614a21d232a347dde0d60665f7d1891cf2fd66e31f435c35808caafbd2b797734666
   languageName: node
   linkType: hard
 
@@ -179,6 +233,20 @@ __metadata:
   dependencies:
     safe-buffer: ~5.1.0
   checksum: 9ab7e56f9d60a28f2be697419917c50cac19f3e8e6c28ef26ed5f4852289fe0de5d6997d29becf59028556f2c62983790c1d9ba1e2a3cc401768ca12d5183a5b
+  languageName: node
+  linkType: hard
+
+"sylvester@npm:>= 0.0.8":
+  version: 0.0.21
+  resolution: "sylvester@npm:0.0.21"
+  checksum: 7a5f05ab310cc46081fda871e3910a8c229dbb5410ea679dc22a0f2f2287f2b35096025111e6e4085d509a612676bf77abfae453c61d1872ad84a0718064a92e
+  languageName: node
+  linkType: hard
+
+"sylvester@npm:^0.0.12":
+  version: 0.0.12
+  resolution: "sylvester@npm:0.0.12"
+  checksum: 8041377c7cc470b434daf00ca8fa8fe9aa77c82d107ee70fc1d6643b550282c6bb93a2f7a935d0fbf7d319a3094393eb81233618399c456a694106ff015a743f
   languageName: node
   linkType: hard
 
@@ -202,9 +270,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"underscore@npm:^1.9.1":
+  version: 1.13.6
+  resolution: "underscore@npm:1.13.6"
+  checksum: d5cedd14a9d0d91dd38c1ce6169e4455bb931f0aaf354108e47bd46d3f2da7464d49b2171a5cf786d61963204a42d01ea1332a903b7342ad428deaafaf70ec36
+  languageName: node
+  linkType: hard
+
 "util-deprecate@npm:~1.0.1":
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
+  languageName: node
+  linkType: hard
+
+"wordnet-db@npm:^3.1.11":
+  version: 3.1.14
+  resolution: "wordnet-db@npm:3.1.14"
+  checksum: 7203027afb210ec372010c2dded87b6f73a4cfb54dfcdd4e5acdabc64bec88eab57ffd65b06e02f4c506feb3adbe40351a43e25bf62a95adf9fb02fa479c1534
   languageName: node
   linkType: hard
